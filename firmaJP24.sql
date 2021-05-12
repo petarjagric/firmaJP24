@@ -16,3 +16,9 @@ datumrodenja datetime,
 placa decimal (18,2)
 );
 
+create table sudjeluje(
+projekt int not null,
+programer int not null,
+datumpocetka datetime,
+datumkraja datetime,
+);
