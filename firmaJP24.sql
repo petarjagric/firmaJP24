@@ -25,3 +25,6 @@ datumkraja datetime,
 
 alter table sudjeluje add foreign key (programer) references programer(sifra);
 alter table sudjeluje add foreign key (projekt) references projekt(sifra);
+
+insert into projekt(naziv,cijena) 
+values ('vježba',3999.99)
